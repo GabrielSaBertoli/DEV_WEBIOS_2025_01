@@ -1,0 +1,3 @@
+Hoje estou apendendo a chegar no horário após a pausa
+pois existe 20 minutos e não 30.
+Horários devem ser seguidos
