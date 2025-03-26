@@ -1,8 +1,6 @@
 # DEV_WEBIOS_2025_01
-HELLO WORLD
 
-ola mundo
-
-socorro world
-
-HONDA FIT
+-Became a hollywood actor
+-Stop drinking soda
+-Get a better shape
+-Eat Lays
