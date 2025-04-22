@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
 
     <!--Atributo action serve para executar uma ação, exemplo: 
@@ -13,67 +15,103 @@
         Guardar informações preenchida no formulario para o banco de dados ou chamar alguma ação usando o javascript -->
 
 
-    <form action="">
-        <label for="">Nome</label>
-        <input type="text" placeholder="Insira o nome do usuário" name="" id="">
-        
+    <form action="./boasvindas.HTML" target="_blank">
+
+
+        <fieldset>
+            <legend>Digite o seu nome</legend>
+
+
+            <label for="">Nome</label>
+            <input type="text" placeholder="Insira o nome do usuário" name="" id="">
+        </fieldset>
+
         <!-- type radio - tres opções-->
         <!-- para aplicar a configuração do radio é necessario colocar o type como radio e o nome igual para todos os inputs -->
         <br>
         <br>
-        <input type="radio" name="radio"> <label for="">São Paulo</label> <br>
-        <input type="radio" name="radio"> <label for="">Grande São Paulo</label> <br>
-        <input type="radio" name="radio"> <label for="">Campinas</label> <br>
+        <fieldset>
+            <legend>Selecione onde você mora</legend>
+            <input type="radio" name="radio"> <label for="">São Paulo</label> <br>
+            <input type="radio" name="radio"> <label for="">Grande São Paulo</label> <br>
+            <input type="radio" name="radio"> <label for="">Campinas</label> <br>
+        </fieldset>
         <br>
 
         <!-- CHECKBOX -->
 
-        <input type="checkbox">
-        <label for="">Pop</label>
-        <br>
+        <fieldset>
+            <legend>
+                <h2>Escolha seu genêro musical</h2>
+            </legend>
+            <input type="checkbox">
+            <label for="">Pop</label>
+            <br>
 
-        <input type="checkbox">
-        <label for="">Hip Hop</label>
-        <br>
+            <input type="checkbox">
+            <label for="">Hip Hop</label>
+            <br>
 
-        <input type="checkbox">
-        <label for="">Metal</label>
-        <br>
+            <input type="checkbox">
+            <label for="">Metal</label>
+            <br>
 
-        <input type="checkbox">
-        <label for="">I´m Just Ken</label>
-        <br>
+            <input type="checkbox">
+            <label for="">I´m Just Ken</label>
+            <br>
 
+        </fieldset>
 
         <!-- RANGE- BARRA DE DISTANCIA -->
-         <br>
-        5MPH <input type="range"> 100MPH
-        
+        <br>
+        <fieldset>
+            <legend>Escolha a distância</legend>
+            5MPH <input type="range"> 100MPH
+        </fieldset>
+
         <br>
         <!-- Select -->
-        <select name="" id="">
 
-            <option value="Amarelo">Amarelo</option>
+        <fieldset>
+            <legend>Selecione a cor</legend>
+            <select name="" id="">
 
-            <option value="Branco">Branco</option>
-            <option value="Vermelho">Vemelho</option>
+                <option value="Amarelo">Amarelo</option>
 
-        </select>
+                <option value="Branco">Branco</option>
+                <option value="Vermelho">Vemelho</option>
+
+            </select>
+        </fieldset>
 
 
-         <br><br>   
+        <br><br>
 
-                <!-- DATALIST -->
+        <!-- DATALIST -->
+
+        <fieldset>
+            <legend>
                 <h3>INTERLICAÇÃO DO INPUT COM DATALIST</h3>
+            </legend>
 
-        <input type="text" list="busca">
 
-        <datalist id="busca">
-            <option value="Santos"></option>
-            <option value="Santo Andre"></option>
-            <option value="Santo Antonio"></option>
-            <option value="Campinas"></option>
-        </datalist>
+            <input type="text" list="busca">
+
+            <datalist id="busca">
+                <option value="Santos"></option>
+                <option value="Santo Andre"></option>
+                <option value="Santo Antonio"></option>
+                <option value="Campinas"></option>
+            </datalist>
+        </fieldset>
+
+        <br><br>
+        <!-- area para grande para quantidade de texto -->
+        <!-- cols -colunas
+        rows - linhas -->
+
+        <textarea cols="30" rows="10"></textarea>
+
 
 
 
@@ -87,8 +125,8 @@
         <!-- placeholder > inserir um texto auxiiar para informar o que o usuario deve fazer no campo input -->
         <br>
         <br>
-        <input type="button" value="Enviar">
-     
+        <input type="submit" value="Enviar">
+
     </form>
 
 
@@ -101,4 +139,5 @@
 
 
 </body>
+
 </html>
