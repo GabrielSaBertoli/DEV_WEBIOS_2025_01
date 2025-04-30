@@ -13,9 +13,19 @@ SEMPRE COLOCAR 2 FONTES PARA CASO O NAVEGADOR NÃO RECONHECER UMA DAS FONTES*/
 
 body{
     font-family: "Lobster", sans-serif;
+    /*ESPESSURA DA LINHA -  font-weight: 100; */
+    font-style: italic;
+    line-height: 50px;     
+    /* LINE HEIGHT - ESPAÇAMENTO ENTRE LINHAS EM PIXELS EX:200PX */
 }
 
 
 h2 {
     font-family: "Coral Pixels", serif;
+    
+}
+
+
+h2{
+    text-shadow: ;
 }
