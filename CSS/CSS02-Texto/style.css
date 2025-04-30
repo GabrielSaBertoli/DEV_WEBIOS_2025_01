@@ -1,0 +1,21 @@
+h1 { 
+    /* cor do texto usando decimal */
+    color: rgb(0, 0, 255); /* red. green. blue */
+    background-color: #ff006a;  
+    /* FF-red, 00 green, 00-green */
+    font-family: "Coral Pixels", serif;
+        font-size: 50px;
+}
+
+/* "GOOGLE FONTS" - COPIAR CÓDIGO DA FONTE SELECIONADA 
+ADD FONT FAMILY E COLAR NO HTML
+SEMPRE COLOCAR 2 FONTES PARA CASO O NAVEGADOR NÃO RECONHECER UMA DAS FONTES*/
+
+body{
+    font-family: "Lobster", sans-serif;
+}
+
+
+h2 {
+    font-family: "Coral Pixels", serif;
+}
