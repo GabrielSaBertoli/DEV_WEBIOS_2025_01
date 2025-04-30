@@ -5,6 +5,7 @@ h1 {
     /* FF-red, 00 green, 00-green */
     font-family: "Coral Pixels", serif;
         font-size: 50px;
+        text-align: center;
 }
 
 /* "GOOGLE FONTS" - COPIAR CÓDIGO DA FONTE SELECIONADA 
@@ -27,6 +28,6 @@ h2 {
 
 
 h2{
-    text-shadow: 1px 2px #000000;
+    text-shadow: 1px 2px 5px #000000;
     /* deslocamento horizontal da sombra, deslocamento vertical da soombra, raio do borrado (opicional) e cor */
 }
