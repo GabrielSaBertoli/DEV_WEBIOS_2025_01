@@ -1,7 +1,9 @@
-div{
-    background-color: cyan;
+/* para sinalizar que eu vou chamar um ID o
+ nome deve vir acompanhado  pelo símbolo de hashtag # */
+#div1{
+    background-color: aqua;
 }
 
-h2{
-    color: rgb(252, 0, 0);
+#div2{
+    background-color: blueviolet;
 }
