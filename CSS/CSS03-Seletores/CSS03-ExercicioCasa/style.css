@@ -7,3 +7,9 @@
 #div2{
     background-color: blueviolet;
 }
+
+/* para sinalizar que bou chamar uma class o nome deve vir acompanhado no inicio pelo ponto final */
+/* Aplicar o mesmo estilo CSS para varias tags diferentes */
+.estiloTitulo{
+    text-shadow: 5px 5px 5px yellow;
+}
