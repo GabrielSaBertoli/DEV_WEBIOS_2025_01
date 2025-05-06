@@ -1,11 +1,27 @@
 /* para sinalizar que eu vou chamar um ID o
  nome deve vir acompanhado  pelo símbolo de hashtag # */
-#div1{
+
+ /* CLASS - IDENTIFCADOR MULTIPLO */
+
+ /* MARGIN SERVE PARA COLAR AS BORDAS DOS TEXTOS NO SITE ATÉ A BORDA */
+*{
+    margin: 0; 
+}
+ #div1{
     background-color: aqua;
 }
 
 #div2{
     background-color: blueviolet;
+}
+
+
+*{
+    margin: 0;
+}
+
+div section{
+    background-color: yellow;
 }
 
 /* para sinalizar que bou chamar uma class o nome deve vir acompanhado no inicio pelo ponto final */
