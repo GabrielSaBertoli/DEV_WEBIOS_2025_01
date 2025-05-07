@@ -1,0 +1,10 @@
+#P1{
+    /* LARGURA DA BORDA */
+    border-width: 2px;
+    /* cor da borda */
+    border-color: rgb(255, 145, 0);
+    /* estilo da borda */
+    border-style:dashed
+    /* espaçamento do textopara a borda */
+    padding 10px;
+}
