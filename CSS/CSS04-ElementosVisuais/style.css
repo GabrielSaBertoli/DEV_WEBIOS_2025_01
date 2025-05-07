@@ -6,5 +6,20 @@
     /* estilo da borda */
     border-style:dashed
     /* espaçamento do textopara a borda */
-    padding 10px;
+    padding 1000000px;
 }
+
+img{
+    /* LARGURA */
+    width: 300px;
+    /* ALTURA */
+    height: 200px;
+}
+
+body{
+    background-image: url("./ANNABELLE\ WALL.jpg");
+    background-size: 100%;
+    /* fixed / scroll */
+    background-attachment: fixed;
+}
+
