@@ -2,12 +2,14 @@
     /* ----------------IMPORTANTE ---------------------------- */
     border: 1px solid red;
 
-    /* Espaço interno entre o texto e a tabelo*/
+    /* Espaço interno entre o texto e a tabela*/
     padding: 10px ;
+    /* ESPAÇAMENTO ENTRE LINHAS DE BORDAS */
+    margin-bottom: 25px;
 }
 
 #DIV2{
-    border: 1px solid greenyellow;
+    border: 1px solid rgb(255, 102, 0);
     padding: 10px;
 }
 
