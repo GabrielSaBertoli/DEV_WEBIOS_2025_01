@@ -1,0 +1,17 @@
+#DIV1{
+    /* ----------------IMPORTANTE ---------------------------- */
+    border: 1px solid red;
+
+    /* Espaço interno entre o texto e a tabelo*/
+    padding: 10px ;
+}
+
+#DIV2{
+    border: 1px solid greenyellow;
+    padding: 10px;
+}
+
+img{
+    width: 300px;
+    height: 200 px;
+}
