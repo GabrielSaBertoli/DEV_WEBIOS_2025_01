@@ -8,3 +8,15 @@ img{
 *{
     background-color: brown;
 }
+
+body{
+    font-family: Roboto Mono, monospace;
+
+}
+
+h1{
+    
+    background-color: #6590d1;
+    text-shadow: 3px  3px 3px #48789f;
+    text-align: center;
+}
