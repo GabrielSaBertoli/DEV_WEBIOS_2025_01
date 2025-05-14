@@ -1,0 +1,38 @@
+.Divs{
+    border: 2px solid black;    
+    clear: both;
+    /* HEIGHT SEPARA AS DIV 9 no caso as imagens) */
+    height: 500px;
+    /* margin separa as bordas junto com imagens */
+    margin-bottom: 30px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#imgSorria2{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 50px; 
+    /* margin right - para separar texto da imagem */
+    padding: 5%;
+}
+
+#imgANNABELLE{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+#imgKLEITAO{
+    height: 300px;
+    width: 400px;
+}
+
+#imgX{
+    height: 400px;
+    width: 400px;
+}
+
