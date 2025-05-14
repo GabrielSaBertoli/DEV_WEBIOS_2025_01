@@ -12,27 +12,72 @@
 }
 
 #imgSorria2{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 200px;
     float: left;
-    margin-right: 50px; 
+    margin-right: 60px; 
     /* margin right - para separar texto da imagem */
-
+    transition: width 5s, height 5s, transform 5s;
 }
 
+#imgSorria2:hover {
+    width: 700px;
+    height: 700px;
+    transform: rotate(360deg);
+}
+
+/* HOVER É A AÇÃO DE QUANDO PASSA O MOUSE EM CIMA DA IMAGEM */
 #imgANNABELLE{
+    height: 400px;
+    width: 400px;
+    float: right;
+    transition: opacity 0.9s;
+}
+
+#imgANNABELLE:hover{
+    opacity: 0;
+    /* OPACITY SERVE PARA IMAGEM SUMIR QUANDO PASSAR O MOUSE */
+}
+
+#paraANNABELLE::first-letter{
+    font-size: 25px;
+    color: crimson;
+ 
+    /* LINK COPIADO DO GOOGLE FONTS */
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+#imgKLEITAO{
+    height: 300px;
+    width: 400px;
+    float: left;
+}
+
+#imgRed{
     height: 400px;
     width: 400px;
     float: right;
 }
 
-#imgKLEITAO{
-    height: 300px;
-    width: 400px;
-}
-
 #imgX{
     height: 400px;
     width: 400px;
+    margin-left: 14%;
 }
 
+#paragrafosorria{
+    color: fuchsia;
+
+}
+
+#paragrafosorria:hover{
+    color: aquamarine;
+
+}
+
+
+/* W3SCHOOL site de aprenidizado */
