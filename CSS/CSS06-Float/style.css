@@ -1,3 +1,9 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+
+
 .Divs{
     border: 2px solid black;    
     clear: both;
@@ -8,7 +14,6 @@
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-
 }
 
 #imgSorria2{
@@ -16,15 +21,32 @@
     width: 200px;
     float: left;
     margin-right: 60px; 
+    border-radius: 5%;
     /* margin right - para separar texto da imagem */
-    transition: width 5s, height 5s, transform 5s;
+    /* transition: width 5s, height 5s, transform 5s; */
 }
 
-#imgSorria2:hover {
+#sorriaTABELA{
+    width: 70%;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 1px;
+}
+
+/* TD --------- COLUNAS DA TABELA */
+td{
+    width: 50%;
+    border: 1px solid;
+}
+
+
+
+/* #imgSorria2:hover {
     width: 700px;
     height: 700px;
     transform: rotate(360deg);
-}
+} */
 
 /* HOVER É A AÇÃO DE QUANDO PASSA O MOUSE EM CIMA DA IMAGEM */
 #imgANNABELLE{
@@ -70,8 +92,7 @@
 }
 
 #paragrafosorria{
-    color: fuchsia;
-
+    font-size: 25px;
 }
 
 #paragrafosorria:hover{
