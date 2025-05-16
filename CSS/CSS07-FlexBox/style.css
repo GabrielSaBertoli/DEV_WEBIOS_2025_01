@@ -1,6 +1,12 @@
 #container{
     /* VOU TRABALHAR COM FLEXBOX */
     display: flex;
+    flex-direction: row;
+     /* row-reverse; */
+    /* column-reverse; */
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap; EVITAR O OVERFLOW / EVITAR QUE O CONTEUDO ULTRAPASSE 
+    A LARGURA DA TELA */
 }
 
 .Itens{
