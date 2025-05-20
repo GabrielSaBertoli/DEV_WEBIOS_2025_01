@@ -31,6 +31,8 @@
     /*    align-items: stretch; só funciona sem width e height por conta de já ter um valor definido de tamanho */
 }
 
-.div1{
-    width: 150px;
+#div1:hover{
+    flex-grow: 0.35;
+    transition: 3s;
+
 }
