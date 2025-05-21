@@ -1,0 +1,11 @@
+.container{
+    /* SITE PARA COLAR CORES: CELKE */
+    border: 1px solid #00FFFF	;
+}
+
+.itens{
+    width: 35%;
+    height: 35%;
+    border: 1px solid #FF00FF;
+    font-size: 250%;
+}
