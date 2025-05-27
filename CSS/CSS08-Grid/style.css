@@ -1,6 +1,7 @@
 .container{
     /* SITE PARA COLAR CORES: CELKE */
     border: 1px solid #00FFFF	;
+    display: grid;
 }
 
 .itens{
