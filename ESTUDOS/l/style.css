@@ -23,3 +23,10 @@ img{
 #li{
     color: chocolate;
 }
+
+body{
+    background-image: url(./The\ runaways\ wall.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
