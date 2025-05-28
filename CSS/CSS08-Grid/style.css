@@ -1,14 +1,49 @@
 .container{
     /* SITE PARA COLAR CORES: CELKE */
-    border: 1px solid #00FFFF	;
+    border: 1px solid #ff0000	;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%; 
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: repeat(4, 1fr);
+     /*grid-template-rows: 50px 50px;  */
+    grid-template-rows: repeat(2, 150px);
+    /*grid-template-columns:  25% 25% 25% 25% */
+    /* grid-template-rows: 25% 25% 25% 25%; */
+  
+  
+    column-gap: 10px;
+    row-gap: 15px;
+    /* ROW GAP - ESPAÇO ENTRE LINHAS */
+
+    justify-items: center;
+    /* center; DEIXAR CENTRALIZADO 
+       end - deixar na direita 
+       strech - esticar*/
+       align-items: center;
+       /* justificar na vertical - deixar no meio da tela*/
+
+
+    padding: 2px;
+    background-color: rgb(255, 238, 0);
+    box-shadow: 0px 20px 40px red;
+
+
+    /* FONTE GOOGLE FONTS */
+        /* font-family: "Exile", system-ui;
+        font-weight: 400;
+        font-style: normal; */
 }
 
 .itens{
-    /* width: 35%;
-    height: 100px; */
-    border: 1px solid #FF00FF;
+    width: 35%;
+    height: 100px;
+    border: 1px solid #2f00ff;
     font-size: 250%;
 }
+
+h1{
+    text-align: center;
+    color: #FF00FF;
+    font-family: "Exile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
