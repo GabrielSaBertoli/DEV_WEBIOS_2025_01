@@ -121,8 +121,8 @@ h1{
     grid-column: 1/3; 
     grid-row: 4/5;
     border: 1px solid blue;
+    /* LARGURA E ALTURA DO ITEM */
     height: 70%;
     width: 70%;
-
 }
 
