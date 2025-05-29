@@ -113,6 +113,7 @@ h1{
     justify-self: center;
     /* Eixo vertical */
     align-self: center;
+    place-self: center;
 }
 
 #Item6{
