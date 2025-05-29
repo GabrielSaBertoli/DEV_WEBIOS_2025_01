@@ -70,20 +70,27 @@ h1{
 }
 
 
+/* código para a aula 09 GRID */
+
+#container2{
+    display: grid;
+    /* grid de 2 colunas por 4 linhas 3x4 */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 70px)
+}
 
 
+#Item1{
+    border: solid red;
+    color: #ff0000;
+    grid-column: 1 / 4;
+}
 
+#Item2{
+    border: 1px solid black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-    /* SITE PARA COLAR CORES: CELKE */
-
+#Item3{
+    border: 1px solid black ;
+    grid-column: 3 / 4;
+}
