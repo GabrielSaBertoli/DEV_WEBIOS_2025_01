@@ -126,3 +126,17 @@ h1{
     width: 70%;
 }
 
+
+/* align - Eixo vertical;
+
+Justify - eixo horizontal;
+
+items - itens;
+
+content - as celulas e container do grid;
+
+column - Retas verticais;
+
+row - Retas Horizontais;
+
+self - para mexer em um unico elemento(item); */
