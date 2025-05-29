@@ -62,8 +62,11 @@ h1{
     font-style: normal;
 }
 
-#item1{
-    
+#item1{ 
+    /* GRID COLUMN - referente as linhas verticais */
+    grid-column: 1 / 3;
+    /* referente as linhas horizontais */
+    grid-row: 1 / 3;
 }
 
 
