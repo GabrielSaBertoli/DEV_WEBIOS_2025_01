@@ -28,8 +28,9 @@ body{
        align-items: center;
        /* justificar na vertical - deixar no meio da tela*/
        justify-content: space-around;
+       /* SPACE BETWEEN COLA A BORDA DA TABELA NA TELA  */
        /* MOVER NA VERTICAL */
-       align-content: center;
+       align-content: space-evenly;
 
 
     padding: 2px;
