@@ -38,6 +38,7 @@ body{
     box-shadow: 0px 20px 40px red;
 
 
+    margin-bottom: 200px; /* Adiciona 20px de espaço abaixo de cada contêiner */
 
 
     /* FONTE GOOGLE FONTS */
@@ -72,6 +73,7 @@ h1{
 
 /* código para a aula 09 GRID */
 
+
 #container2{
     display: grid;
     /* grid de 2 colunas por 4 linhas 3x4 */
@@ -96,5 +98,17 @@ h1{
 }
 
 #Item4{
-    
+    border: 1px solid #2f00ff;
+    grid-column: 2/4;
 }
+#Item5{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    border: 1px solid red;
+}
+
+#Item6{
+    grid-column: 1/3; 
+    border: 1px solid blue;
+}
+
