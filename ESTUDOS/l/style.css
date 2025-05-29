@@ -1,16 +1,20 @@
 #ID1{
     color: darkorange;
-     font-family: "Lobster", sans-serif;
+  font-family: "Lobster", sans-serif;
 }
 
 #h1{
     color: white;
     padding: 10px;
+    color: rgb(255, 0, 0);
+    background-color: black;
+    margin-top: auto;
+    
 }
 
 img{
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
     margin-bottom: 30px;
 }
 
@@ -20,8 +24,9 @@ img{
 }
 
 body{
-    background-image: url(./The\ runaways\ wall.jpg);
+    background-image: url(./the\ runaways.jpg);
     background-size: 100%;
     background-attachment: fixed;
 
 }
+
