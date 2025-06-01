@@ -1,5 +1,6 @@
 * {
       font-family: "New Rocker", system-ui;
+      background-color: rgb(165, 42, 165);
 }
 
 h1:hover {
@@ -11,9 +12,12 @@ h1:hover {
 h1 {
       color: black;
       text-align: center;
-      background-color: rgb(18, 20, 143);
+      background-color: rgb(14, 15, 107);
 }
 
 tr,th {
        border: 10px solid black;
+       height: 50px;
+       width: 200px;
 }
+
