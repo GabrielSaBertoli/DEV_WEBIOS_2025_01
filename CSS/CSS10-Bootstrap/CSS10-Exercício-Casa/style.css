@@ -14,12 +14,13 @@ h1 {
       text-align: center;
 }
 
-tr,th {
-       border: 10px solid rgb(85, 4, 8);
-       height: 50px;
-       width: 200px;
+tr,
+th {
+      border: 10px solid rgb(85, 4, 8);
+      height: 50px;
+      width: 200px;
 }
 
-th{
+th {
       color: rgb(255, 255, 255);
 }
