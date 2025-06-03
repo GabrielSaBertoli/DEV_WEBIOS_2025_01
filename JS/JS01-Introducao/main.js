@@ -1,5 +1,6 @@
 //JavaScript
-console.log("Hello World")
+console.log("Hello World") //aoresentar uma mensagem
+console.clear() //limpar
 
 //Variaveis
 var numero1 = 192
