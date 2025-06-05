@@ -36,7 +36,27 @@ console.log("Aluno " + nome1 + "e aluno" + nome2 + "Tem um total de " + nome3 + 
 console.log(`Aluno $(nome) e Aluno $(nome2) Tem um total de ${nome3} dinheiros`) //concatenar 3
 
 
+console.log(10 / 0) //infinity
 
+
+//Operadores 
+var valor1 = 5
+var valor2 = 5
+console.log(valor1 + valor2)
+console.log(valor1 - valor2)
+console.log(valor1 * valor2)
+console.log(valor1 / valor2)
+console.log(valor1 ** valor2)
+
+//Operadores relacionais
+console.log(5 == 5)
+console.log(5 > 5)
+console.log(22 < 8)
+console.log(22 >= 22)
+console.log(22 != 23);
+console.log('A' == 'B')
+console.log('Ana' == 'ana')
+console.log()
 
 
 
