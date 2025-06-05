@@ -56,7 +56,18 @@ console.log(22 >= 22)
 console.log(22 != 23);
 console.log('A' == 'B')
 console.log('Ana' == 'ana')
-console.log()
+console.log(true == false)
+console.log(true === 'true') //boolean e o outro e txt > string
+console.log(true != 'false') //true
+
+
+let temCamisa = false
+let temCracha = true
+console.log(temCamisa)
+console.log(temCracha)
+console.log(temCamisa == true && temCracha == true) // false    ==     true = false          && = comparação de false or true
+console.log(temCamisa == true || temCracha == true) // false     ou    true = true          || definição de mais flexibilidade
+
 
 
 
