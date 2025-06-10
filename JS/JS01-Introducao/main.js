@@ -81,6 +81,19 @@ x = x + y
 
 console.log(x)
 
+x = 720
+console.log(x)
+
+//log > para mostrar resultados, mensagens do sistema
+//clear> limpar o console e deixar disponivel para novas mensagens
+
+console.clear()
+console.log("Está tudo limpo")
+console.log("Hello World")
+
+console.error("Não use essa tela, você poder  ser punido isso")
+
+console.warn("Mas apresenta uma mensagem em amarelo")
 
 
 //var //flexivel e com menos regras (posso alterar o valor inicial de uma var e recriar a mesma em outrar partes do código)
