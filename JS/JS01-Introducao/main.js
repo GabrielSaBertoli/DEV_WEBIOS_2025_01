@@ -69,6 +69,18 @@ console.log(temCamisa == true && temCracha == true) // false    ==     true = fa
 console.log(temCamisa == true || temCracha == true) // false     ou    true = true          || definição de mais flexibilidade
 
 
+//Operador de aribuição
+var x = 3
+var y = 2
+x = x + y
+// var soma = x + y 
+// x = soma
+
+// x += y formato contraido
+// x = 3 + 3
+
+console.log(x)
+
 
 
 //var //flexivel e com menos regras (posso alterar o valor inicial de uma var e recriar a mesma em outrar partes do código)

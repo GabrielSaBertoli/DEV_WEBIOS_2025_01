@@ -9,6 +9,7 @@
     color: rgb(255, 0, 0);
     background-color: black;
     margin-top: auto;
+    align-items: center;
     
 }
 
@@ -25,7 +26,7 @@ img{
 
 body{
     background-image: url(./the\ runaways.jpg);
-    background-size: 100%;
+    background-size: 100%;   
     background-attachment: fixed;
 
 }
