@@ -32,3 +32,8 @@ console.log(texto4.substring(1))
 var texto5 = 'Bem vindo a Microsoft'
 let novaMensagem = texto5.replace('Microsoft', 'IOS')
 console.log(novaMensagem)
+
+//Retirar espaços em branco (TRIM) - apenas tira o espaçamento em branco no começo e no final do texto
+let textarea = '                Hello world      aprendendo JAvaScript' 
+
+console.log(textarea.trim())
