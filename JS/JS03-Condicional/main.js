@@ -4,15 +4,13 @@ let mensagemParabens = 'Parabéns, valeu fera'
 
 if(atividadeEntregue == true){ //true
 console.log("mensagemPabéns")
-}
 
-if(diaFinalEntrega <= 13){
-console.log("Entregou a atividade na data e sua nota é 10!")
-}
+    if(diaFinalEntrega <= 13){
+    console.log("Entregou a atividade na data e sua nota é 10!")
+    }else{console.log("Entregou fora da data e sera retirado 2 pontos")
+    }
 
-else{console.log("Entregou fora da data e sera retirado 2 pontos")
 }
-
 else if(atividadeEntregue == false){ //false
 console.log("Oops, você ainda não entregou sua atividade")
 }
