@@ -21,7 +21,15 @@ else{ //else serve para resposta alternativa,  ou, caso seja um texto que o usua
 
 
 
+let nota = 6.9
+// se a nota for igual ou maior de 7, enão o aluno passou dsa matéria
+//se não a nota for menor ou igual a 6,9 o aluno ficará de recuperação
+if(nota >= 7){
+    console.log("Passou na materia")
+}else{
+    console.log("Vai de recuperação")
+}
 
-
-
+nota >= 7 ? console.log("Passou na materia") :
+console.log("Vai ficar de recuperação")
 
