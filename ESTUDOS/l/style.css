@@ -4,12 +4,11 @@
 }
 
 #h1{
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     color: rgb(255, 0, 0);
     background-color: black;
     margin-top: auto;
-    align-items: center;
 }
 
 img{
@@ -18,15 +17,12 @@ img{
     margin-bottom: 30px;
 }
 
-
 #li{
     color: chocolate;
 }
 
 body{
-    background-image: url(./the\ runaways.jpg);
-    background-size: 100%;   
+    background-image: url(./The\ runaways\ wall.jpg);
+    background-size: 90%;   
     background-attachment: fixed;
-
 }
-
