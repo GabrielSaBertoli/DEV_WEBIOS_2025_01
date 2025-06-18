@@ -18,7 +18,6 @@ function Mensagem(){
     // console.log("Aprendendo DOM com JS")
 }
 
-
 let tagH1 = document.createElement("h1")
 //innerHTML - serve para adicionar uma informação dentro das tags do HTML
 tagH1.innerHTML = 'Olá mundo, criei você'
